@@ -69,3 +69,4 @@ var TotalTime = addWorker * WorkHour;
 System.out.println("Если в компании работает " + addWorker + " человек, то всего " + TotalTime + " часов работы может быть поделено между сотрудниками");
     }
 }
+
