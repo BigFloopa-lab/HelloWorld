@@ -80,9 +80,9 @@ public class Main {
         float mashasDifference = mashasNewAnnual - mashasAnnual;
         float denisDifference = denisNewAnnual - denisAnnual;
         float kristinaDifference = kristinaNewAnnual - kristinaAnnual;
-        System.out.println("Маша теперь получает " + (int)mashasNewSalary + " рублей. Годовой доход вырос на " + (int)mashasDifference + " рублей");
-        System.out.println("Денис теперь получает " + (int)denisNewSalary + " рублей. Годовой доход вырос на " + (int)denisDifference + " рублей");
-        System.out.println("Кристина теперь получает " + (int)kristinaNewSalary + " рублей. Годовой доход вырос на " + (int)kristinaDifference + " рублей");
+        System.out.println("Маша теперь получает " + mashasNewSalary + " рублей. Годовой доход вырос на " + mashasDifference + " рублей");
+        System.out.println("Денис теперь получает " + denisNewSalary + " рублей. Годовой доход вырос на " + denisDifference + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. Годовой доход вырос на " + kristinaDifference + " рублей");
     }
 
 }
