@@ -85,5 +85,10 @@ System.out.println("Денис теперь получает " + denisNewSalary 
 System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. Годовой доход вырос на " + kristinaDifference + " рублей");
     }
 
+
+
+
+
+
 }
 
