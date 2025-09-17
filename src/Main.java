@@ -9,12 +9,12 @@ public class Main {
         long planet = 232341254;
         float procent = 21.23f;
         double boble = 212.12121244;
-        System.out.println("Значение переменной ammo с типом int равно 134");
-        System.out.println("Значение переменной bullet с типом byte равно 5");
-        System.out.println("Значение переменной landArea с типом short равно 32750");
-        System.out.println("Значение переменной planet с типом long равно 232341254");
-        System.out.println("Значение переменной procent с типом float равно 21.23f");
-        System.out.println("Значение переменной boble типом double равно 212.12121244");
+        System.out.println("Значение переменной ammo с типом int равно " + ammo);
+        System.out.println("Значение переменной bullet с типом byte равно " + bullet);
+        System.out.println("Значение переменной landArea с типом short равно " + landArea);
+        System.out.println("Значение переменной planet с типом long равно  " + planet);
+        System.out.println("Значение переменной procent с типом float равно " + procent);
+        System.out.println("Значение переменной boble типом double равно " + boble);
 
 //2 задание
         float a = 27.12f;
@@ -31,7 +31,7 @@ public class Main {
         int as = 27;
         int ea = 30;
         short paper = 480;
-        int paperPerChild = 480/(lp + as + ea);
+        int paperPerChild = paper/(lp + as + ea);
         System.out.println("На каждого ученика рассчитано " + paperPerChild + " листов бумаги");
 
 //4 задание
@@ -43,7 +43,7 @@ public class Main {
         int workForThreDay = workForOneDay * 3;
         int workForOneMonth = workForOneDay * 30;
         System.out.println("За 1 минуту машина произвела " + workForOneMinute + " штук бутылок");
-        System.out.println("За 1 минуту машина произвела " + worForTwentyMinute + " штук бутылок" );
+        System.out.println("За 20 минут машина произвела " + worForTwentyMinute + " штук бутылок" );
         System.out.println("За сутки машина произвела " + workForOneDay + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + workForThreDay + " штук бутылок");
         System.out.println("За 1 месяц машина произвела " + workForOneMonth + " штук бутылок");
@@ -61,18 +61,18 @@ public class Main {
 
 //6 задание
         System.out.println("---6 задание---");
-    int banana = 5;
+    int bananaCount = 5;
     int bananaWeight =  80;
-    int bananaTotal = banana * bananaWeight;
-    int milk = 200;
+    int bananaTotal = bananaCount * bananaWeight;
+    int milkCount = 200;
     double milkWeightPerGr = 105;
-    int totalMilkWeight = milk * 105 / 100;
-    int icecream = 2;
+    int totalMilkWeight = milkCount * 105 / 100;
+    int icecreamCount = 2;
     int grIce = 100;
-    int totalIce = grIce * icecream;
-    int egg = 4;
+    int totalIce = grIce * icecreamCount;
+    int eggCount = 4;
     int eggPerOne = 70;
-    int totalEgg = egg * eggPerOne;
+    int totalEgg = eggCount * eggPerOne;
     int totalGR = bananaTotal + totalMilkWeight + totalIce + totalEgg;
     double totalKilograms = totalGR / 1000.0;
     System.out.println("Вес завтрака: " + totalGR + " грамм");
@@ -92,8 +92,8 @@ public class Main {
         float first = totalWeight / chet;
         float second = totalWeight / half;
         float middle = (first + second) /2;
-        System.out.println("Вариант похудения с четвертью - " + first);
-        System.out.println("Вариант похудения с половиной - " + second);
+        System.out.println("Вариант похудения со сжиганием 250 грамм в день - " + first);
+        System.out.println("Вариант похудения со сжиганием 500 грамм в день - " + second);
         System.out.println("Средний вариант похудения по дням - " + middle);
 
 //8 задание
