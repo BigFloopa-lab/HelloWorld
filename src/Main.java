@@ -2,122 +2,110 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-//1 задание
-        int ammo = 134;
-        byte bullet = 5;
-        short landArea = 32750;
-        long planet = 232341254;
-        float procent = 21.23f;
-        double boble = 212.12121244;
-        System.out.println("Значение переменной ammo с типом int равно " + ammo);
-        System.out.println("Значение переменной bullet с типом byte равно " + bullet);
-        System.out.println("Значение переменной landArea с типом short равно " + landArea);
-        System.out.println("Значение переменной planet с типом long равно  " + planet);
-        System.out.println("Значение переменной procent с типом float равно " + procent);
-        System.out.println("Значение переменной boble типом double равно " + boble);
-
-//2 задание
-        float a = 27.12f;
-        long b = 987678965549L;
-        double c = 2.786;
-        short d = 569;
-        short e = -159;
-        short f = 27897;
-        int g = 67;
-
-//3 задание
-        System.out.println("---3 задание---");
-        int lp = 23;
-        int as = 27;
-        int ea = 30;
-        short paper = 480;
-        int paperPerChild = paper/(lp + as + ea);
-        System.out.println("На каждого ученика рассчитано " + paperPerChild + " листов бумаги");
-
-//4 задание
-        System.out.println("---4 задание---");
-        int wokrForTwoMinute = 16;
-        int workForOneMinute = wokrForTwoMinute / 2;
-        int worForTwentyMinute = workForOneMinute * 20;
-        int workForOneDay = workForOneMinute * (24 * 60);
-        int workForThreDay = workForOneDay * 3;
-        int workForOneMonth = workForOneDay * 30;
-        System.out.println("За 1 минуту машина произвела " + workForOneMinute + " штук бутылок");
-        System.out.println("За 20 минут машина произвела " + worForTwentyMinute + " штук бутылок" );
-        System.out.println("За сутки машина произвела " + workForOneDay + " штук бутылок");
-        System.out.println("За 3 дня машина произвела " + workForThreDay + " штук бутылок");
-        System.out.println("За 1 месяц машина произвела " + workForOneMonth + " штук бутылок");
-
-//5 задание
-        System.out.println("---5 задание---");
-        byte total = 120;
-        byte whiteForOne = 2;
-        byte brownForOne = 4;
-        int forOneClass = whiteForOne + brownForOne;
-        int classValue = total / forOneClass;
-        int totalWhite = classValue * whiteForOne;
-        int totalBrown =classValue * brownForOne;
-        System.out.println("В школе, где " + classValue + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски");
-
-//6 задание
-        System.out.println("---6 задание---");
-    int bananaCount = 5;
-    int bananaWeight =  80;
-    int bananaTotal = bananaCount * bananaWeight;
-    int milkCount = 200;
-    double milkWeightPerGr = 105;
-    int totalMilkWeight = milkCount * 105 / 100;
-    int icecreamCount = 2;
-    int grIce = 100;
-    int totalIce = grIce * icecreamCount;
-    int eggCount = 4;
-    int eggPerOne = 70;
-    int totalEgg = eggCount * eggPerOne;
-    int totalGR = bananaTotal + totalMilkWeight + totalIce + totalEgg;
-    double totalKilograms = totalGR / 1000.0;
-    System.out.println("Вес завтрака: " + totalGR + " грамм");
-    System.out.println("Вес завтрака: " + totalKilograms + " килограмм");
-
-
-
-
-
-
-
-//7 задание
-        System.out.println("---7 задание---");
-        float totalWeight = 7.000f;
-        float chet = 0.250f;
-        float half = 0.500f;
-        float first = totalWeight / chet;
-        float second = totalWeight / half;
-        float middle = (first + second) /2;
-        System.out.println("Вариант похудения со сжиганием 250 грамм в день - " + first);
-        System.out.println("Вариант похудения со сжиганием 500 грамм в день - " + second);
-        System.out.println("Средний вариант похудения по дням - " + middle);
-
-//8 задание
-        System.out.println("---8 задание---");
-        int mashasSalary = 67760;
-        int denisSalary = 83690;
-        int kristinaSalary = 76230;
-        float mashasNewSalary = mashasSalary * 1.10f;
-        float denisNewSalary = denisSalary * 1.10f;
-        float kristinaNewSalary = kristinaSalary * 1.10f;
-        int mashasAnnual = mashasSalary * 12;
-        int denisAnnual = denisSalary * 12;
-        int kristinaAnnual = kristinaSalary * 12;
-        float mashasNewAnnual = mashasNewSalary * 12;
-        float denisNewAnnual = denisNewSalary * 12;
-        float kristinaNewAnnual = kristinaNewSalary * 12;
-        float mashasDifference = mashasNewAnnual - mashasAnnual;
-        float denisDifference = denisNewAnnual - denisAnnual;
-        float kristinaDifference = kristinaNewAnnual - kristinaAnnual;
-        System.out.println("Маша теперь получает " + mashasNewSalary + " рублей. Годовой доход вырос на " + mashasDifference + " рублей");
-        System.out.println("Денис теперь получает " + denisNewSalary + " рублей. Годовой доход вырос на " + denisDifference + " рублей");
-        System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. Годовой доход вырос на " + kristinaDifference + " рублей");
-    }
+        //1 задание
+        System.out.println("---1 задание---");
+byte age = 17;
+if (age < 18){
+    System.out.println("Если возраст человека равен "+ age + " то он не достиг совершеннолетия, нужно немного подождать");
+}else {
+    System.out.println("Если возраст человека равен "+ age + " то он совершеннолетний");
 }
+        //2 задание
+        System.out.println("---2 задание---");
+byte airTemperature = 6;
+if (airTemperature < 5){
+    System.out.println("На улице " + airTemperature + " гардусов, нужно надеть шапку ");
+} else {
+    System.out.println("На улице " + airTemperature + " гардусов, можно идти без шапки");
+}
+        //3 задание
+        System.out.println("---3 задание---");
+byte carSpeed = 75 ;
+if ( carSpeed > 60){
+    System.out.println("Если скорость," + carSpeed + " то придется заплатить штраф");
+}else{
+    System.out.println("Если скорость," + carSpeed + " можно ездить спокойно");
+}
+
+        //4 задание
+        System.out.println("---4 задание---");
+byte childAge = 5;
+if (childAge >=2 && childAge <=6){
+    System.out.println("Если возраст человека равен "+childAge+ " то ему нужно ходить в детский сад.");
+} else if (childAge >=7 && childAge <=17) {
+    System.out.println("Если возраст человека равен "+childAge+ " то ему нужно ходить в детский школу.");
+}else {
+    System.out.println("Если возраст человека равен "+childAge+ " то ему нужно ходить на работу.");
+}
+        //5 задание
+        System.out.println("---5 задание---");
+        byte AgeOfTheAttraction = 34;
+        if (AgeOfTheAttraction < 5 ){
+            System.out.println("Если возраст ребенка равен "+AgeOfTheAttraction+ " то ему нельзя кататься на аттракционе");
+        } else if (AgeOfTheAttraction >=5 && AgeOfTheAttraction <=14) {
+            System.out.println("Если возраст ребенка равен "+AgeOfTheAttraction+ " то ему можно кататься на аттракционе в сопровождении взрослого");
+        }else {
+            System.out.println("Если возраст ребенка равен "+AgeOfTheAttraction+ " то ему можно кататься на аттракционе без сопровождения взрослого");
+        }
+        //6 задание
+        System.out.println("---6 задание---");
+        byte allPositions = 120;
+        byte seatingPositions = 60;
+        int standingPositions = allPositions - seatingPositions;
+        int reqiredPositions = 34;
+        int occupiedSeating = 0;
+        int occupiedStanding = 0;
+        int totalOccupied = 0;
+        if (reqiredPositions <= seatingPositions) {
+
+            occupiedSeating = reqiredPositions;
+            totalOccupied = occupiedSeating;
+        } else {
+
+            occupiedSeating = seatingPositions;
+            occupiedStanding = reqiredPositions - seatingPositions;
+            totalOccupied = occupiedSeating + occupiedStanding;
+        }if (reqiredPositions < seatingPositions && reqiredPositions < standingPositions) {
+            System.out.println("в вагоне еще есть места");
+            System.out.println("Занято сидячих мест: " + occupiedSeating + " из " + seatingPositions);
+            System.out.println("Занято стоячих мест: " + occupiedStanding + " из " + standingPositions);
+            System.out.println("Всего занято: " + totalOccupied + " из " + allPositions);
+        } else if (totalOccupied < allPositions) {
+            System.out.println("в вагоне еще есть места");
+            System.out.println("Занято сидячих мест: " + occupiedSeating + " из " + seatingPositions);
+            System.out.println("Занято стоячих мест: " + occupiedStanding + " из " + standingPositions);
+            System.out.println("Всего занято: " + totalOccupied + " из " + allPositions);
+        } else {
+            System.out.println("Вагон полностью заполнен!");
+            System.out.println("Занято сидячих мест: " + occupiedSeating);
+            System.out.println("Занято стоячих мест: " + occupiedStanding);
+        }
+
+        //7 задание
+        System.out.println("---7 задание---");
+        int one = 21;
+        int two = 221;
+        int three = 222212;
+        if(one > two && one > three){
+            System.out.println("большее число это - " + one + " а именно первое число");
+        } else if (two > one && two > three) {
+            System.out.println("большее число это - " + two + " а именно второе число");
+        } else {
+            System.out.println("большее число это - " + three + " а именно третье число");
+        }
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 
