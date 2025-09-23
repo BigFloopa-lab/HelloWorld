@@ -28,24 +28,27 @@ if ( carSpeed > 60){
 }
 
         //4 задание
+        /// 4 задание
         System.out.println("---4 задание---");
-byte childAge = 5;
-if (childAge >=2 && childAge <=6){
-    System.out.println("Если возраст человека равен "+childAge+ " то ему нужно ходить в детский сад.");
-} else if (childAge >=7 && childAge <=17) {
-    System.out.println("Если возраст человека равен "+childAge+ " то ему нужно ходить в детский школу.");
-}else {
-    System.out.println("Если возраст человека равен "+childAge+ " то ему нужно ходить на работу.");
-}
+        byte childAge = 5;
+        if (childAge >=2 && childAge <=6){
+            System.out.println("Если возраст человека равен "+childAge+ " то ему нужно ходить в детский сад.");
+        } else if (childAge >=7 && childAge <=17) {
+            System.out.println("Если возраст человека равен "+childAge+ " то ему нужно ходить в детский школу.");
+        }else if (childAge >=18 && childAge == 24){
+            System.out.println("Если возраст человека равен "+childAge+ " то ему нужно ходить в университет.");
+        } else {
+            System.out.println("Если возраст человека равен "+childAge+ " то ему нужно ходить на работу.");
+        }
         //5 задание
         System.out.println("---5 задание---");
-        byte AgeOfTheAttraction = 34;
-        if (AgeOfTheAttraction < 5 ){
-            System.out.println("Если возраст ребенка равен "+AgeOfTheAttraction+ " то ему нельзя кататься на аттракционе");
-        } else if (AgeOfTheAttraction >=5 && AgeOfTheAttraction <=14) {
-            System.out.println("Если возраст ребенка равен "+AgeOfTheAttraction+ " то ему можно кататься на аттракционе в сопровождении взрослого");
+        byte ageOfTheAttraction = 34;
+        if (ageOfTheAttraction < 5 ){
+            System.out.println("Если возраст ребенка равен "+ageOfTheAttraction+ " то ему нельзя кататься на аттракционе");
+        } else if (ageOfTheAttraction >=5 && ageOfTheAttraction <=14) {
+            System.out.println("Если возраст ребенка равен "+ageOfTheAttraction+ " то ему можно кататься на аттракционе в сопровождении взрослого");
         }else {
-            System.out.println("Если возраст ребенка равен "+AgeOfTheAttraction+ " то ему можно кататься на аттракционе без сопровождения взрослого");
+            System.out.println("Если возраст ребенка равен "+ageOfTheAttraction+ " то ему можно кататься на аттракционе без сопровождения взрослого");
         }
         //6 задание
         System.out.println("---6 задание---");
