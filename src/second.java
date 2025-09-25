@@ -1,79 +1,60 @@
 public class second {
     public static void main(String[] args) {
-        //1 задание
         System.out.println("---1 задание---");
-        byte clientOS = 1;
-        if (clientOS ==1){
-            System.out.println("Установите версию приложения для Android по ссылке");
-        }else{
-            System.out.println("Установите версию приложения для iOS по ссылке");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
         }
 
-        //2 задание
         System.out.println("---2 задание---");
-        int clientDeviceYear = 2005;
-        if (clientOS == 1 && clientDeviceYear >= 2015) {
-            System.out.println("Установите версию приложения для Android по ссылке");
-        } else if (clientOS == 1 && clientDeviceYear < 2015) {
-            System.out.println("Установите облегченную версию приложения для Android по ссылке");
-        } else if (clientOS == 0 && clientDeviceYear >= 2015) {
-            System.out.println("Установите версию приложения для iOS по ссылке");
-        } else if (clientOS == 0 && clientDeviceYear < 2015) {
-            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+        for (int q = 10; q >= 1; q--) {
+            System.out.println(q);
         }
 
-        //3 задание
         System.out.println("---3 задание---");
-        int year = 5232;
-        if (year > 1584 && (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-            System.out.println(year + " год является високосным");
-        } else {
-            System.out.println(year + " год не является високосным");
-
+        for (int w = 2; w <= 17; w += 2) {
+            System.out.println(w);
         }
-        //4 задание
+
         System.out.println("---4 задание---");
-        int deliveryDistance = 95;
-        var delyweryDay = 1;
-        if (deliveryDistance < 20) {
-            System.out.println("Потребуется дней " + delyweryDay);
-        } else if (deliveryDistance >= 20 && deliveryDistance <= 60) {
-            delyweryDay++;
-            System.out.println("Потребуется дней " + delyweryDay);
-        } else if (deliveryDistance >= 60 && deliveryDistance <= 100) {
-            delyweryDay +=2;
-            System.out.println("Потребуется дней " + delyweryDay);
-        } else {
-            System.out.println("Доставки нет");
+        for (int e = 10; e >= -10; e--) {
+            System.out.println(e);
         }
 
-        //5 задание
         System.out.println("---5 задание---");
-        byte monthNumber = 13;
-        switch (monthNumber){
-            case 12:
-            case 2:
-            case 1:
-                System.out.println("Зима");
-                break;
-            case 3:
-            case 4:
-            case 5:
-                System.out.println("Весна");
-                break;
-            case 6:
-            case 7:
-            case 8:
-                System.out.println("Лето");
-                break;
-            case 9:
-            case 10:
-            case 11:
-                System.out.println("осень");
-                break;
-            default:
-                System.out.println("Ошибка: номер месяца должен быть от 1 до 12");
+        for (int r = 1904; r < 2096; r += 4) {
+            System.out.println(r + " год является високосным");
         }
+        System.out.println("---6 задание---");
+        for (int t = 7; t < 100; t += 7) {
+            System.out.println(t);
+        }
+        System.out.println("---7 задание---");
+        for (int y = 1; y < 515; y *= 2) {
+            System.out.println(y);
+        }
+        System.out.println("---8 задание---");
+        int sallary = 29000;
+        int months = 12;
+        int moneyInJar = 0;
+        for (int month = 1; month < months; month++) {
+            moneyInJar = moneyInJar + sallary;
+            System.out.println("Месяц " + month + " сумма накоплений равна " + moneyInJar);
+        }
+        System.out.println("---9 задание---");
+        int sallaryB = 29000;
+        int monthsB = 12;
+        int moneyInBank = 0;
+        for (int month = 1; month < monthsB; month++) {
+            moneyInBank = (moneyInBank + sallaryB) + (moneyInBank / 100 * 12);
+            System.out.println("Месяц " + month + " сумма накоплений равна " + moneyInBank);
+        }
+        System.out.println("---10 задание---");
+        int a = 2;
+        for (int c = 1; c <= 10; c++) {
+            System.out.println(a + "*" + c + "=" + (2 * c));
+        }
+
     }
+
 }
 
